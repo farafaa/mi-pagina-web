@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rafael Gaviria — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="preloader" id="preloader">
+    <div class="preloader-text-wrapper">
+      <div class="preloader-text-container">
+        <span class="preloader-word">HTML</span>
+        <span class="preloader-word">CSS</span>
+        <span class="preloader-word">JAVASCRIPT</span>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="/img/Adobe Express - file.png" alt="logo">
+        <span class="logo-nombre">RAFAEL GAVIRIA</span>
+      </div>
+      <button class="menu-btn" id="menuBtn">
+        <span class="menu-texto">MENU</span>
+        <div class="menu-lineas">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+    </nav>
+  </header>
+
+  <div class="menu-overlay" id="menuOverlay">
+    <div class="menu-overlay-nav">
+      <div class="logo">
+        <img src="/img/Adobe Express - file.png" alt="logo">
+        <span class="logo-nombre">RAFAEL GAVIRIA</span>
+      </div>
+      <button class="menu-btn-cerrar" id="menuCerrar">
+        <span class="menu-texto">CLOSE</span>
+        <div class="menu-lineas">
+          <span class="linea-cerrar-1"></span>
+          <span class="linea-cerrar-2"></span>
+        </div>
+      </button>
+    </div>
+    <div class="menu-overlay-contenido">
+      <div class="menu-overlay-izq">
+        <p class="menu-overlay-label">DONT BE A STRANGER</p>
+        <div class="menu-overlay-redes">
+          <a href="https://github.com/adeolaadeoti" target="_blank" rel="noopener">👾 GH</a>
+          <a href="https://twitter.com/adeolajs" target="_blank" rel="noopener">🐦 TW</a>
+          <a href="https://www.linkedin.com/in/adeoladev" target="_blank" rel="noopener">💼 LD</a>
+          <a href="https://www.instagram.com/adeolaadeoti_a" target="_blank" rel="noopener">📷 IN</a>
+        </div>
+      </div>
+      <div class="menu-overlay-der">
+        <p class="menu-overlay-label">HAVE AN IDEA?</p>
+        <h2 class="menu-overlay-titulo">Tell me about it</h2>
+      </div>
+    </div>
+    <div class="menu-overlay-proyectos">
+      <p class="menu-overlay-label">FEATURED PROJECTS</p>
+      <div class="menu-overlay-grid">
+        <a href="https://alexxandria.vercel.app/" target="_blank" rel="noopener" class="menu-mini-card">
+          <img src="img/1.png" alt="Alexxandria Forque">
+          <span>Alexxandria Forque</span>
+        </a>
+        <a href="https://safarika-adeola.netlify.app/" target="_blank" rel="noopener" class="menu-mini-card">
+          <img src="img/3.png" alt="Safarikat Two">
+          <span>Safarikat Two</span>
+        </a>
+        <a href="https://heatrow.vercel.app/" target="_blank" rel="noopener" class="menu-mini-card">
+          <img src="img/5.png" alt="Heatrow Estate">
+          <span>Heatrow Estate</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <section class="hero">
+      <h1 class="hero-titulo">
+        turning ideas into<br>
+        real <span class="gradiente-azul">software</span><br>
+        is my calling.
+      </h1>
+      <div class="hero-actions">
+        <a href="#proyectos" class="hero-boton">VIEW PROJECTS</a>
+        <button class="boton-musica" id="botonMusica" aria-label="Toggle music">
+          <span class="boton-musica-x">×</span>
+          <span class="boton-musica-circulo"></span>
+          <div class="boton-musica-barras">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+      <div class="hero-redes">
+        <a href="https://github.com/adeolaadeoti" target="_blank" rel="noopener">👾 GH</a>
+        <a href="https://twitter.com/adeolajs" target="_blank" rel="noopener">🐦 TW</a>
+        <a href="https://www.linkedin.com/in/adeoladev" target="_blank" rel="noopener">💼 LD</a>
+        <a href="https://www.instagram.com/adeolaadeoti_a" target="_blank" rel="noopener">📷 IN</a>
+      </div>
+    </section>
+
+    <section class="sobre-mi">
+      <p class="sobre-mi-texto">
+        Hello stranger! 👋, my name is <strong>Rafael Gaviria</strong> and I am a
+        frontend engineer, passionate about digital products that help people
+        experience everyday life, not endure it.
+      </p>
+    </section>
+
+    <section class="proyectos" id="proyectos">
+      <h2 class="proyectos-titulo">
+        <span class="gradiente-rosa">Yeah, I work</span> hard 💼
+      </h2>
+      <p class="proyectos-subtitulo">Each project is unique. Here are some of my works.</p>
+      <div class="proyectos-lista">
+
+        <div class="proyecto-contenedor">
+          <span class="proyecto-numero">01</span>
+          <div class="proyecto-tarjeta">
+            <div class="proyecto-interior">
+              <p class="proyecto-tecnologias">NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION</p>
+              <a href="https://alexxandria.vercel.app/" class="proyecto-imagen-enlace" target="_blank" rel="noopener">
+                <img src="img/1.png" alt="Alexxandria Forque" class="proyecto-imagen-img proyecto-imagen-principal">
+                <img src="img/2.png" alt="Alexxandria Forque Hover" class="proyecto-imagen-img proyecto-imagen-hover">
+              </a>
+              <div class="proyecto-info">
+                <h3 class="proyecto-nombre">Alexxandria<br>Forque</h3>
+                <a href="https://alexxandria.vercel.app/" class="proyecto-link">VISIT THE WEBSITE</a>
+                <div class="proyecto-iconos">
+                  <a href="https://github.com/rafaelgaviria/alexxandria" class="proyecto-icono" aria-label="Ver repositorio">
+                    <img src="img/social.png" alt="github icon">
+                  </a>
+                  <a href="https://alexxandria.vercel.app/" class="proyecto-icono" aria-label="Visitar proyecto">
+                    <img src="img/bal.png" alt="link icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyecto-contenedor">
+          <span class="proyecto-numero">02</span>
+          <div class="proyecto-tarjeta">
+            <div class="proyecto-interior">
+              <p class="proyecto-tecnologias">REACT, GSAP, TAILWIND CSS</p>
+              <a href="https://safarika-adeola.netlify.app/" class="proyecto-imagen-enlace" target="_blank" rel="noopener">
+                <img src="img/3.png" alt="Safarikat Two" class="proyecto-imagen-img proyecto-imagen-principal">
+                <img src="img/4.png" alt="Safarikat Two Hover" class="proyecto-imagen-img proyecto-imagen-hover">
+              </a>
+              <div class="proyecto-info">
+                <h3 class="proyecto-nombre">Safarikat<br>Two</h3>
+                <a href="https://safarika-adeola.netlify.app/" class="proyecto-link">VISIT THE WEBSITE</a>
+                <div class="proyecto-iconos">
+                  <a href="https://github.com/rafaelgaviria/safarika" class="proyecto-icono" aria-label="Ver repositorio">
+                    <img src="img/git.png" alt="github icon">
+                  </a>
+                  <a href="https://dribbble.com/" class="proyecto-icono" aria-label="Ver en Dribbble">
+                    <img src="img/bal.png" alt="dribbble icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyecto-contenedor">
+          <span class="proyecto-numero">03</span>
+          <div class="proyecto-tarjeta">
+            <div class="proyecto-interior">
+              <p class="proyecto-tecnologias">VUE JS, THREE JS, SCSS</p>
+              <a href="https://heatrow.vercel.app/" class="proyecto-imagen-enlace" target="_blank" rel="noopener">
+                <img src="/img/5.png" alt="Heatrow Estate" class="proyecto-imagen-img proyecto-imagen-principal">
+                <img src="/img/6.png" alt="Heatrow Estate Hover" class="proyecto-imagen-img proyecto-imagen-hover">
+              </a>
+              <div class="proyecto-info">
+                <h3 class="proyecto-nombre">Heatrow<br>Estate</h3>
+                <a href="https://heatrow.vercel.app/" class="proyecto-link">VISIT THE WEBSITE</a>
+                <div class="proyecto-iconos">
+                  <a href="https://heatrow.vercel.app/" class="proyecto-icono" aria-label="Visitar proyecto">
+                    <img src="img/bal.png" alt="link icon">
+                  </a>
+                  <a href="https://github.com/rafaelgaviria/heatrow" class="proyecto-icono" aria-label="Ver repositorio">
+                    <img src="img/git.png" alt="github icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <section class="comentarios">
+      <h2 class="comentarios-titulo">
+        <span class="gradiente-rosa">Mmmm, a little brag</span> 😊
+      </h2>
+      <p class="comentarios-subtitulo">What people are saying about my last portfolio</p>
+      <div class="comentarios-contenedor">
+
+        <div class="comentarios-fila">
+          <div class="comentarios-pista">
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">NOT BE BLANK</p><p class="comentario-usuario">@sultan</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">great stuff right here..</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">GIFT EGWUENU 🌸</p><p class="comentario-usuario">@lauragift_</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Your projects are amazing! 👍 💪</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">CHAMPAGNE PAPI 🥂</p><p class="comentario-usuario">@lolyparty</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Man your portfolio is 🔥</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">RUKS 🐦</p><p class="comentario-usuario">@ruks_ahwin</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Really impressive man 👋</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">AMARACHI IHEANACHO</p><p class="comentario-usuario">@amaralheanach0</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Your site is elite, lovely work.</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">NOT BE BLANK</p><p class="comentario-usuario">@sultan</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">great stuff right here..</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">GIFT EGWUENU 🌸</p><p class="comentario-usuario">@lauragift_</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Your projects are amazing! 👍 💪</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">CHAMPAGNE PAPI 🥂</p><p class="comentario-usuario">@lolyparty</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Man your portfolio is 🔥</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">RUKS 🐦</p><p class="comentario-usuario">@ruks_ahwin</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Really impressive man 👋</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">AMARACHI IHEANACHO</p><p class="comentario-usuario">@amaralheanach0</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Your site is elite, lovely work.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="comentarios-fila comentarios-fila--reversa">
+          <div class="comentarios-pista">
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">8THLEGION</p><p class="comentario-usuario">@8thLegion</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Great Portfolio man 🚀🚀🚀 ...Wish you luck</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">A. 🌿</p><p class="comentario-usuario">@aladearchives</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Whooooaaaaaaa your site is mad</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">BIG SHEDDY 🐉</p><p class="comentario-usuario">@coder_blvck</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">This is really cool!</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">ONAZI 🔥</p><p class="comentario-usuario">@VictorOnazi_</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">🔥 well-done.</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">CYNTHIA 🌺 SANCHEZ</p><p class="comentario-usuario">@cyntss</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Love your design! sharing now!</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">8THLEGION</p><p class="comentario-usuario">@8thLegion</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Great Portfolio man 🚀🚀🚀 ...Wish you luck</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">A. 🌿</p><p class="comentario-usuario">@aladearchives</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Whooooaaaaaaa your site is mad</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">BIG SHEDDY 🐉</p><p class="comentario-usuario">@coder_blvck</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">This is really cool!</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">ONAZI 🔥</p><p class="comentario-usuario">@VictorOnazi_</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">🔥 well-done.</p>
+            </div>
+            <div class="comentario-card">
+              <div class="comentario-card-top">
+                <div><p class="comentario-nombre">CYNTHIA 🌺 SANCHEZ</p><p class="comentario-usuario">@cyntss</p></div>
+                <svg class="comentario-icono" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </div>
+              <p class="comentario-texto">Love your design! sharing now!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contacto">
+      <h2 class="contacto-titulo">
+        <span class="gradiente-rosa">Sold Yet?</span> 👍
+      </h2>
+      <p class="contacto-texto">
+        Thanks for stopping by, I'm currently looking to join a new team of
+        creative designers and developers. If you think we might be a good
+        fit for one another, send me an <a href="adeolaonigegeara@gmail.com" class="contacto-email">email 📧</a>.
+      </p>
+    </section>
+
+    <section class="redes-sociales">
+      <h2 class="redes-titulo">
+        <span class="gradiente-rosa">Dont be a stranger!</span> 👋
+      </h2>
+      <p class="redes-subtitulo">Connect with me online</p>
+      <div class="redes-links">
+        <a href="https://github.com/adeolaadeoti" target="_blank" rel="noopener">👾 GITHUB</a>
+        <a href="https://twitter.com/adeolajs" target="_blank" rel="noopener">🐦 TWITTER</a>
+        <a href="https://www.linkedin.com/in/adeoladev" target="_blank" rel="noopener">💼 LINKEDIN</a>
+        <a href="https://www.instagram.com/adeolaadeoti_a" target="_blank" rel="noopener">📷 INSTAGRAM</a>
+      </div>
+    </section>
+
+    <div class="barra-final">
+      <div class="barra-logo">
+        <img src="/img/Adobe Express - file.png" alt="Logo">
+        <span>DESIGN & DEVELOPMENT</span>
+      </div>
+      <div class="barra-iconos">
+        <a href="https://dribbble.com/" class="barra-icono-btn" aria-label="Dribbble">🏀</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <div class="cursor-personalizado">
+    <div class="cursor-texto">RAFA • RAFA • RAFA • RAFA • RAFA • </div>
+    <div class="cursor-punto"></div>
+  </div>
+
+  <audio id="musica" src="audio/Haunted-Memories.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
